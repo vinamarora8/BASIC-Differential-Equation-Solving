@@ -1,0 +1,7 @@
+INPUT A
+LET X = A
+FOR N=1 TO 8
+   LET X = (X + A/X)/2
+   PRINT N,X
+NEXT N
+END
